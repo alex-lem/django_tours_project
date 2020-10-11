@@ -1,8 +1,10 @@
+import random
+
 from django.shortcuts import render
 from django.http import Http404, HttpResponseNotFound, HttpResponseServerError
-from . import data
 from django.views import View
-import random
+
+from . import data
 
 
 class MainView(View):
